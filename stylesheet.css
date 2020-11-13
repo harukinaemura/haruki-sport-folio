@@ -22,7 +22,7 @@ a {
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(宇宙.jpeg);
-  background-size: cover;
+  
   color: gold;
   text-align: center;
 }
@@ -37,7 +37,7 @@ a {
 }
 
 .gnav ul {
-  
+  padding-bottom: 250px;
 }
 
 .gnav li{
@@ -67,6 +67,7 @@ a {
 
 .heading h2 {
   font-size: 40px;
+  padding-bottom: 50px;
   
 }
 
@@ -85,7 +86,7 @@ a {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
  
 }
 
@@ -99,6 +100,7 @@ a {
 .SKILL h2 {
   font-weight: normal;
   background-color: #f7f7f7;
+  padding-bottom: 50px;
   
 }
 
@@ -140,7 +142,37 @@ a {
 
 .SKILL ul{
   display: inline-block;
+  padding-bottom: 50px;
 } 
+
+.service {
+  padding: 0 70px;
+}
+
+.service h2 {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.service-top {
+  background-color: #fff;
+}
+
+.service-top p {
+   font-size:30px;
+   padding-bottom: 20px;
+}
+
+.service-top ul {
+  display: inline-block;
+  padding: 0 50px;
+  padding-bottom: 50px;
+}
+
+
+.service-top li{
+  font-size: 30px;
+}
 
 .WORKS {
   font-size: 40px;
@@ -153,7 +185,7 @@ a {
 
 .WORKS h2 {
   font-size: 40px;
-
+  padding-bottom: 50px;
 }
 
 
@@ -199,6 +231,7 @@ a {
 
 .CONTACT h2{
   font-size: 40px;
+  padding-bottom: 50px;
 }
 
 .CONTACT-top {
