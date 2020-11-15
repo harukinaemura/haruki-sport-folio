@@ -38,11 +38,15 @@ a {
 
 .gnav ul {
   padding-bottom: 250px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .gnav li{
   padding: 0 15px;
   display: inline-block;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
 }
 
 .top-wrapper h1 {
@@ -58,7 +62,7 @@ a {
 
 .lesson-wrapper {
   background-color: #f7f7f7;
-  text-align: center;
+  
 }
 
 .heading {
@@ -68,6 +72,7 @@ a {
 .heading h2 {
   font-size: 40px;
   padding-bottom: 50px;
+  text-align: center;
   
 }
 
@@ -76,17 +81,17 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
+  text-align: center;
 }
 
-.heading li{
 
-}
 
 .heading p {
   background-color: #fff;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 50px;
+  text-align: center;
  
 }
 
@@ -101,6 +106,7 @@ a {
   font-weight: normal;
   background-color: #f7f7f7;
   padding-bottom: 50px;
+  text-align: center;
   
 }
 
@@ -123,6 +129,7 @@ a {
 .SKILL-top h3{
   font-size: 30px;
   padding: 20px 100px;
+  text-align: center;
 }
 
 .SKILL-top p {
@@ -137,46 +144,185 @@ a {
 }
 
 .SKILL-contents li{
-  padding: 0 100px;
+  
+  text-align: center;
 }
 
-.SKILL ul{
+.SKILL-contents ul{
   display: inline-block;
   padding-bottom: 50px;
+  text-align: center;
+  padding-left: 220px;
 } 
 
 .service {
-  padding: 0 70px;
+  background-color: #f7f7f7;
+}
+
+.service-top {
+  padding-left: 70px;
 }
 
 .service h2 {
   font-size: 40px;
   padding-bottom: 50px;
+  text-align: center;
 }
 
-.service-top {
+
+.cording {
   background-color: #fff;
+  width: 95%;
+  padding-bottom: 20px;
+  
 }
 
-.service-top p {
-   font-size:30px;
-   padding-bottom: 20px;
+.cording h3 {
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: aquamarine;
+  text-align: center;
 }
 
-.service-top ul {
-  display: inline-block;
-  padding: 0 50px;
+.cording-serv1 ul {
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  border-bottom: solid 1px silver;
+  
+}
+
+.cording-serv2 ul {
+   padding-top: 100px;
+   padding-left: 150px;
+   padding-bottom: 100px;
+   border-bottom: solid 1px silver;
+   
+}
+
+.cording-serv3 ul  {
+  padding-top: 100px;
+  padding-left: 150px;
   padding-bottom: 50px;
+  border-bottom: solid 1px silver;
+  
+}
+
+.cording-serv1 li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.cording-serv2 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+  
+}
+    
+
+.cording-serv3 li {
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.option {
+  background-color: #fff;
+  width: 95%;
+  padding-top: 20px;
+}
+
+.option h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: aquamarine;
+    text-align: center;
 }
 
 
-.service-top li{
-  font-size: 30px;
+
+.otption-serv1 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px; 
+  border-bottom: solid 1px silver;
+}
+.otption-serv2 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px; 
+  border-bottom: solid 1px silver;
+}
+.otption-serv3 ul{
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px silver;
 }
 
+.otption-serv1 li{
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+
+.otption-serv2 li{
+  float: left;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+  
+}
+.otption-serv3 li{
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  border-left: 1px solid #333;
+}
+
+.sport {
+  background-color: #fff;
+  width: 95%;
+  padding-bottom: 30px;
+}
+.sport h4 {
+  padding-top: 20px;
+  font-size: 20px;
+    padding-bottom: 20px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.sport-serv1 ul {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-bottom: 100px;
+  border-bottom: solid 1px silver;
+}
+
+.sport-serv1 li{
+  float: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 10px; 
+  border-left: 1px solid #333;
+  
+}
 .WORKS {
   font-size: 40px;
-  padding-top: 80px;
+  padding-top: 250px;
   padding-bottom: 50px;
   background-color:  #f7f7f7;
 } 
@@ -197,11 +343,19 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 20px;
+  text-align: center;
 }
 
+
+
 .WORKS-top p{
-  color: darkgreen;
+  
   padding-bottom: 30px;
+  
+}
+
+.WORKS-top img {
+  border-radius: 100px;
 }
 
 .WORKS-top li{
@@ -210,6 +364,7 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: underline;
+  border-radius: 20px;
 }
 
 .WORKS-top ul{
@@ -224,8 +379,8 @@ a {
 
 .CONTACT {
   font-size: 40px;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  
+  
   background-color: #f7f7f7;
 }
 
@@ -235,12 +390,17 @@ a {
 }
 
 .CONTACT-top {
-  font-size: 20px;
+  
   background-color: #fff;
   width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 10px;
+  
+  
+  
+  
+}
+
+.CONTACT-top li {
+  padding-left: 200px;
 }
 
 footer p {
