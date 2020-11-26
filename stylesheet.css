@@ -24,16 +24,10 @@ a {
   .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(宇宙.jpeg);
-    
     color: gold;
     text-align: center;
   }
 
-  .container {
-    width: 1170px;
-    margin: 0 auto;
-  }
-  
   .gnav {
     font-size: 25px;
   }
@@ -84,6 +78,7 @@ a {
     margin-right: auto;
     padding-bottom: 10px;
     text-align: center;
+    color: aqua;
   }
 
 
@@ -475,11 +470,8 @@ a {
   .CONTACT-top {
     
     background-color: #fff;
-    width: 90%;
-    
-    
-    
-    
+    width: 75%;
+    padding-left: 300px;
   }
 
   .CONTACT-top li {
@@ -554,18 +546,31 @@ a {
 
 
   .top-wrapper {
-    padding: 180px 0 100px 0;
+    height: 200px;
     background-image: url(宇宙.jpeg);
-    
+    background-size: cover;
     color: gold;
     text-align: center;
+   
   }
 
-  .container {
-    width: 100%;
-    margin: 0 auto;
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-top: 70px;
   }
-  
+
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
+
+  .lesson-wrapper {
+    background-color: #f7f7f7;
+    
+  }
+
   .gnav {
     font-size: 25px;
   }
@@ -583,24 +588,10 @@ a {
     border-right: 1px solid #333;
   }
 
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-  }
-
-  .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 15px;
-  }
-
-  .lesson-wrapper {
-    background-color: #f7f7f7;
-    
-  }
-
   .heading {
     padding-bottom: 400px;
+    width: 95%;
+    padding-left: 5px;
   }
 
   .heading h2 {
@@ -616,6 +607,12 @@ a {
     margin-right: auto;
     padding-bottom: 10px;
     text-align: center;
+    font-size: 10px;
+    color: aqua;
+  }
+
+  .heading　li {
+    
   }
 
 
@@ -630,7 +627,6 @@ a {
   }
 
   .SKILL {
-    font-size: 40px;
     padding-top: 40px;
     padding-bottom: 400px;
     background-color: #f7f7f7;
@@ -641,8 +637,10 @@ a {
     background-color: #f7f7f7;
     padding-bottom: 50px;
     text-align: center;
+    font-size: 40px;
     
   }
+
 
   .SKILL p {
     font-size: 25px;
@@ -661,15 +659,15 @@ a {
   }
 
   .SKILL-top h3{
-    font-size: 30px;
-    padding: 20px 100px;
+    font-size: 20px;
+    padding: 30px 0;
     text-align: center;
   }
 
   .SKILL-top p {
     text-align: justify;
     text-align: center;
-    padding: 20px 100px;
+    padding: 20px 00px;
   }
 
   .SKILL-contents {
@@ -679,14 +677,14 @@ a {
 
   .SKILL-contents li{
     
-    text-align: center;
+    
   }
 
   .SKILL-contents ul{
     display: inline-block;
     padding-bottom: 50px;
     text-align: center;
-    padding-left: 220px;
+    font-size: 20px;
   } 
 
   .service {
@@ -694,7 +692,7 @@ a {
   }
 
   .service-top {
-    padding-left: 70px;
+    padding-left: 10px;
   }
 
   .service h2 {
@@ -720,22 +718,50 @@ a {
   }
 
   .cording-serv1 ul {
-    
-    padding-bottom: 180px;
     padding-top: 20px;
     border-bottom: solid 1px silver;
-    
+    padding-bottom: 300px;
   }
 
   .cording-serv2 ul {
-    padding-bottom: 180px;
+    padding-bottom: 300px;
     padding-top: 20px;
     border-bottom: solid 1px silver;
     
   }
 
   .cording-serv3 ul  {
-    padding-bottom: 180px;
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border-bottom: solid 1px silver;
+  }
+
+  .cording-serv4 ul  {
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border-bottom: solid 1px silver;
+  }
+
+  .cording-serv5 ul  {
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border-bottom: solid 1px silver;
+  }
+
+  .cording-serv6 ul  {
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border-bottom: solid 1px silver;
+  }
+
+  .cording-serv7 ul  {
+    padding-bottom: 300px;
+    padding-top: 20px;
+    border-bottom: solid 1px silver;
+  }
+
+  .cording-serv8 ul  {
+    padding-bottom: 300px;
     padding-top: 20px;
     border-bottom: solid 1px silver;
   }
@@ -764,6 +790,49 @@ a {
     border-left: 1px solid #333;
     
   }
+
+  .cording-serv4 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    
+  }
+
+  .cording-serv5 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    
+  }
+
+  .cording-serv6 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    
+  }
+
+  .cording-serv7 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    
+  }
+
+  .cording-serv8 li {
+    float: left;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-left: 1px solid #333;
+    
+  }
+
+
+  
 
   .option {
     background-color: #fff;
@@ -907,7 +976,6 @@ a {
   .CONTACT {
     font-size: 40px;
     width: 100%;
-    
     background-color: #f7f7f7;
   }
 
@@ -916,7 +984,7 @@ a {
     padding-bottom: 50px;
   }
 
-  .CONTACT-top {
+  .CONTACT-top frame{
     
     background-color: #fff;
     width: 99%;
@@ -961,6 +1029,7 @@ a {
     right: 10px;
     bottom: 10px;
     z-index: 99;
+    padding-right: 300px;
   }
 
   .page-top img {
